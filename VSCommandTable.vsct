@@ -98,6 +98,18 @@
 				</Strings>
 			</Button>
 
+			<Button guid="VsDbg" id="RefactorRename" priority="0x0100" type="Button">
+				<Parent guid="VsDbg" id="MainCmdGroup" />
+				<Icon guid="ImageCatalogGuid" id="StatusInformation" />
+				<CommandFlag>IconIsMoniker</CommandFlag>
+				<CommandFlag>CommandWellOnly</CommandFlag>
+				<Strings>
+					<ButtonText>Toggle C# Inline Parameter Name Hint</ButtonText>
+					<LocCanonicalName>.VsDbg.RefactorRename</LocCanonicalName>
+					<CanonicalName>.VsDbg.RefactorRename</CanonicalName>
+				</Strings>
+			</Button>
+			
 		</Buttons>
 	</Commands>
 
@@ -111,6 +123,7 @@
 			<IDSymbol name="ToggleCSharpFadeOut" value="0x0500" />
 			<IDSymbol name="ToggleCSharpInlineParameterNameHint" value="0x0600" />
 			<IDSymbol name="ToggleAspnetIntegratedTerminal" value="0x0700" />
+			<IDSymbol name="RefactorRename" value="0x0800" />
 		</GuidSymbol>
 	</Symbols>
 </CommandTable>
