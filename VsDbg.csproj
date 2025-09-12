@@ -45,6 +45,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\ToggleTerminal.cs" />
+    <Compile Include="Commands\CloseWindow.cs" />
     <Compile Include="Commands\RefactorRename.cs" />
     <Compile Include="Commands\ToggleCodeLens.cs" />
     <Compile Include="Commands\ToggleCSharpInlineParameterNameHint.cs" />
